@@ -1,0 +1,67 @@
+@import url(/css/arrays.css);
+@import url(/css/card.css);
+@import url(/css/media.css);
+@import url(/css/card-form.css);
+/*Обнуление*/
+*,*>*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*--------------------*/
+
+body{
+	min-height: 100vh;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.hidden{
+	display: none !important;
+}
+.error{
+	border:2px solid var(--red);
+}
+.error_message{
+	gap: 0;
+}
+.error_message::after{
+	content:"can't be blank";
+	color:var(--red);
+	margin-top: .1rem;
+}
+.container{
+	display: flex;
+	align-items: center;
+}
+.thank{
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 2rem;
+}
+.thank h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.thank p{
+    font-size: 18px;
+    color:var(--grey);
+}
+.thank button{
+    color:var(--white);
+    width: 100%;
+    border-radius:6px;
+    padding: 1rem;
+    font-size: 18px;
+    background-color: var(--deepViolet);
+    cursor:pointer;
+}
+.attribution {
+	position: absolute;
+	left: 0;
+	bottom:0;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}

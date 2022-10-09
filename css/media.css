@@ -1,0 +1,240 @@
+@media screen and (max-width:1300px) {
+    .right_section{
+        padding-left: 200px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .cards{
+        transform: translate(-30%,-50%);
+    }
+}
+@media screen and (max-width:1100px) {
+    .right_section{
+        padding-left: 250px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    
+    .card_container img, .back_card img{
+        width: 400px;
+    }
+    .card_logo{
+        width: 70px;
+    }
+    #number{
+        font-size: 24px;
+    }
+    #cvc{
+        top:43%;
+        right:12%;
+    }
+}
+@media screen and (max-width:950px) {
+    
+    .attribution{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:920px) {
+    
+    .card_container img, .back_card img{
+        width: 300px;
+    }
+    .card_logo{
+        width: 50px;
+    }
+    #number{
+        font-size: 16px;
+        bottom:4.2rem;
+    }
+    .card_info{
+        bottom:1.5rem;
+        right: 2.5rem;
+        font-size: 12px;
+    }
+    #cvc{
+        font-size: 12px;
+        top:42%;
+        right:12%;
+    }
+    .right_section form{
+        gap:1rem !important;
+        width: 300px !important;
+        grid-template-columns: auto !important;
+        grid-template-rows:auto !important;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+    form button {
+        font-size: 16px;
+    }
+    .attribution{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container{
+        flex-direction: column;
+    }
+    .front_card .card_container img,.front_card,.back_card img,.back_card{
+        width: 280px;
+    }
+    .left_section{
+        width: 100%;
+        min-height: 30vh;
+        background-image: url('/images/bg-main-mobile.png');
+    }
+    .cards{
+        flex-direction: column-reverse;
+        left: 50%;
+        top: 60%;
+        gap: 0;
+    }
+    .back_card{
+        transform: translateY(60px);
+    }
+    .front_card{
+        z-index: 1;
+    }
+    .right_section{
+        justify-content: center;
+        margin-top: 6rem;
+        padding-left: 0;
+    }
+    input{
+        font-size: 14px;
+    }
+    form button{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:405px) {
+    .container{
+        flex-direction: column;
+    }
+    .front_card .card_container img,.front_card,.back_card img,.back_card{
+        width: 250px;
+    }
+    
+    .card_logo{
+        width: 30px;
+    }
+    #number{
+        font-size: 12px;
+        bottom:4rem;
+    }
+    .card_info{
+        bottom:1.2rem;
+        right: 1rem;
+        font-size: 10px;
+    }
+    #cvc{
+        font-size: 10px;
+        top:42%;
+        right:12%;
+    }
+    .left_section{
+        width: 100%;
+        min-height: 30vh;
+        background-image: url('/images/bg-main-mobile.png');
+    }
+    .cards{
+        flex-direction: column-reverse;
+        left: 50%;
+        top: 60%;
+        gap: 0;
+    }
+    .back_card{
+        transform: translateY(60px);
+    }
+    .front_card{
+        z-index: 1;
+    }
+    .right_section{
+        justify-content: center;
+        margin-top: 5rem;
+        padding-right: 0;
+    }
+    input{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        flex-direction: column;
+    }
+    .front_card .card_container img,.front_card,.back_card img,.back_card{
+        width: 250px;
+    }
+    
+    .card_logo{
+        width: 50px;
+        margin-left: 0;
+    }
+    #number{
+        font-size: 14px;
+        bottom:3rem;
+        margin-left: 0;
+    }
+    .card_info{
+        bottom:1rem;
+        right: 1.5rem;
+        font-size: 8px;
+        margin-left: 0;
+    }
+    #cvc{
+        font-size: 8px;
+        top:43%;
+        right:12%;
+    }
+    .left_section{
+        width: 100%;
+        min-height: 30vh;
+        background-image: url('/images/bg-main-mobile.png');
+    }
+    .cards{
+        flex-direction: column-reverse;
+        left: 42.5%;
+        top: 60%;
+        gap: 0;
+    }
+    .front_card{
+        transform: translateX(-50px);
+    }
+    .back_card{
+        transform: translateY(64px);
+    }
+    .front_card{
+        z-index: 1;
+    }
+    .right_section{
+        justify-content: center;
+        margin-top: 5rem;
+        padding-right: 0;
+    }
+    .right_section form{
+        width: 280px !important; 
+        gap:1.4rem !important;
+    }
+    label{
+        font-size: 11px;
+    }
+    input{
+        font-size: 12px;
+    }
+    input::placeholder{
+        font-size: 15px;
+    }
+    form button{
+        border-radius:8px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .attribution{
+        font-size: 13px;
+    }
+}
