@@ -50,7 +50,7 @@
             <input 
                   type="text" 
                   oninput="if(this.value.length > this.maxLength) this.value=this.value.slice(0, this.maxLength)"
-                  onkeydown="return /[a-z]/i.test(event.key)" 
+                  onkeydown="return /[a-z ]/i.test(event.key)" 
                   minlength="5"
                   maxlength="27"
                   placeholder="e.g. Jane Appleseed" 
